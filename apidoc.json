@@ -3,6 +3,6 @@
   "version": "1.0.0",
   "description": "Para que os clientes possam integrar suas aplicações.",
   "title": "Mission Brasil api",
-  "url" : "http://localhost:5454/v1",
-  "sampleUrl": "http://localhost:5454/v1"
+  "url" : "https://api.missionbrasil.com.br/v1",
+  "sampleUrl": "https://api.missionbrasil.com.br/v1"
 }
