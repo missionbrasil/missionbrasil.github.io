@@ -15,12 +15,12 @@ Saiba mais em https://www.missionbrasil.com.br
 O que é a api da Mission Brasil?
 ----------------------------------
 
-A api em a finalidade de ajudar o clientes da Mission Brasil permitindo integrar suas aplicações a api da Mission Brasil.
+A api tem a finalidade de ajudar o clientes da Mission Brasil permitindo integrar suas aplicações a api da Mission Brasil.
 
 Tecnologias utilizadas para gerar a documentação:
 ---------------------------------------------------
 
-- Node.js
+- Node.js versão 14.16.1
 - Apidocjs versão 0.29.0 . Para saber mais acesse: https://apidocjs.com/
 
 
