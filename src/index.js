@@ -5,10 +5,10 @@
  * @apiGroup Resposta do formulário
  * @apiDescription Retornar a lista de respostas de todas as questões do formulário.
  *
- * @apiQuery {Number} formId Id do formulário que deseja pegar as respostas
- * @apiQuery {String} initialDate Data inicial para filtrar os registros. O formato da data é: YYYY-MM-DD . Exemplo: 2022-01-01
- * @apiQuery {String} finalDate Data final para filtrar os registros. O formato da data é: YYYY-MM-DD . Exemplo: 2022-01-01
- * @apiQuery {Number} page Página que deseja buscar
+ * @apiParam (Query) {Number} formId Id do formulário que deseja pegar as respostas
+ * @apiParam (Query) {String} initialDate Data inicial para filtrar os registros. O formato da data é: YYYY-MM-DD . Exemplo: 2022-01-01
+ * @apiParam (Query) {String} finalDate Data final para filtrar os registros. O formato da data é: YYYY-MM-DD . Exemplo: 2022-01-01
+ * @apiParam (Query) {Number} page Página que deseja buscar
  * 
  * @apiHeader {String} client-id É o valor do client id gerado no dashboard do cliente na parte de configurações
  * @apiHeader {String} client-secret É o valor do client secret gerado no dashboard do cliente na parte de configurações
