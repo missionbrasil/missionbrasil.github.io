@@ -28,7 +28,7 @@ Comando para gerar a documentação:
 ------------------------------------
 
 ```
-    apidoc -i ./src/  -o ./ -v -t/template/
+    apidoc -i ./src/  -o ./ -v -t ./template/
 ```
 
 
