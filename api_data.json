@@ -7,36 +7,40 @@
     "name": "Obtem_as_respostas_do_formulário",
     "group": "Resposta_do_formulário",
     "description": "<p>Retornar a lista de respostas de todas as questões do formulário.</p>",
-    "query": [
-      {
-        "group": "Query",
-        "type": "Number",
-        "optional": false,
-        "field": "formId",
-        "description": "<p>Id do formulário que deseja pegar as respostas</p>"
-      },
-      {
-        "group": "Query",
-        "type": "String",
-        "optional": false,
-        "field": "initialDate",
-        "description": "<p>Data inicial para filtrar os registros. O formato da data é: YYYY-MM-DD . Exemplo: 2022-01-01</p>"
-      },
-      {
-        "group": "Query",
-        "type": "String",
-        "optional": false,
-        "field": "finalDate",
-        "description": "<p>Data final para filtrar os registros. O formato da data é: YYYY-MM-DD . Exemplo: 2022-01-01</p>"
-      },
-      {
-        "group": "Query",
-        "type": "Number",
-        "optional": false,
-        "field": "page",
-        "description": "<p>Página que deseja buscar</p>"
+    "parameter": {
+      "fields": {
+        "Query": [
+          {
+            "group": "Query",
+            "type": "Number",
+            "optional": false,
+            "field": "formId",
+            "description": "<p>Id do formulário que deseja pegar as respostas</p>"
+          },
+          {
+            "group": "Query",
+            "type": "String",
+            "optional": false,
+            "field": "initialDate",
+            "description": "<p>Data inicial para filtrar os registros. O formato da data é: YYYY-MM-DD . Exemplo: 2022-01-01</p>"
+          },
+          {
+            "group": "Query",
+            "type": "String",
+            "optional": false,
+            "field": "finalDate",
+            "description": "<p>Data final para filtrar os registros. O formato da data é: YYYY-MM-DD . Exemplo: 2022-01-01</p>"
+          },
+          {
+            "group": "Query",
+            "type": "Number",
+            "optional": false,
+            "field": "page",
+            "description": "<p>Página que deseja buscar</p>"
+          }
+        ]
       }
-    ],
+    },
     "header": {
       "fields": {
         "Header": [
